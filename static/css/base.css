@@ -1,0 +1,142 @@
+html,body{
+    height: 100%;
+}
+#header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.logo{
+    font-size: 30px;
+    text-decoration: solid;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu{
+    position: absolute;
+    right: 25px;
+    margin: 0;
+}
+.menu a{
+    text-decoration: solid;
+    color: white;
+    border: solid white 3px;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+}
+
+#content{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+
+.module{
+    border: solid 2px gray;
+    border-radius: 25px;
+    padding: 10px;
+    width: fit-content;
+    background-color: white;
+}
+
+.module label{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.module input{
+    padding: 5px;
+}
+
+.login-btn{
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+.all-courses{
+    background-color: black;
+    border: solid white 2px;
+    color: white;
+    padding: 0;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.course-align{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 100%;
+
+    
+}
+.course-contents{
+    background-color: black;
+    color: white;
+    padding-right: 30px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-module{
+    width: 100%;
+    background-color:aliceblue;
+    padding-left: 30px;
+
+}
+h3{
+    font-size: 30px;
+    
+}
+#modules{
+    text-decoration: solid;
+    list-style: none;
+    margin-left: 10px;
+    padding-right: 20px;
+    width: fit-content;
+}
+
+#modules li{
+    margin-top: 15px;
+    text-align: center;
+    list-style: none;
+
+
+}
+
+
+.selected{
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;  
+    color: black;  
+    font-weight: bold;
+}
+.selected a{
+    text-decoration: solid;
+    color: black;
+}
+
+#modules a{
+    text-decoration: solid;
+    color: red;
+}
+
+.contents{
+    display: flex;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+}
